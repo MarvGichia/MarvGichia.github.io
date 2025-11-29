@@ -11,28 +11,16 @@ order: 5
   </a>
 </div>
 
-<object
-  data="/assets/files/MarvGichiaResume.pdf"
-  type="application/pdf"
-  class="resume-viewer"
->
-  <p>
-    Your browser cannot display the embedded PDF. Please
-    <a href="/assets/files/MarvGichiaResume.pdf" target="_blank" rel="noopener">download the resume</a>
-    instead.
-  </p>
-</object>
-
 ## Professional Summary
 
 ### Academic Background
 
-- Undergraduate cybersecurity and information systems training with emphasis on networks, secure infrastructure, and applied research (see PDF for full transcript and honors).  
-- Complemented by self-driven certifications and labs spanning ethical hacking, cloud security, and Linux administration.  
+- Undergraduate degree for Bachelor of Science in Computer Science  
+- Relevant Coursework: Operating Systems, Database Systems, Machine Learning, Cloud Computing and Virtualization  
 
 ### Work / Attachment Experience
 
-- **Cybersecurity Attachment – Betting Control and Licensing Board (BCLB)**  
+- **Internship – Betting Control and Licensing Board (BCLB)**  
   - Network troubleshooting and switch/router configuration assistance.  
   - Produced technical documentation and escalation notes for the ICT/SOC teams.  
   - Shadowed server hardening tasks and reviewed common misconfigurations.  
