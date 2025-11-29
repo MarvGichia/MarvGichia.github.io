@@ -3,11 +3,13 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/marv-gichia"
 
 - type: email
   icon: "fas fa-envelope"
+  url: "mailto:marvgichia8@gmail.com"
   noblank: true # open link in current tab
 
 - type: rss

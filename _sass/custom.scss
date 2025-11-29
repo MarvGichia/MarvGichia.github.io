@@ -1,0 +1,86 @@
+/* Custom Cybersecurity Theme Overrides */
+
+/* Additional accent color applications */
+a {
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #18A0FB;
+  }
+}
+
+/* Button enhancements */
+.btn-primary {
+  background-color: #18A0FB;
+  border-color: #18A0FB;
+  
+  &:hover {
+    background-color: #0d7fd9;
+    border-color: #0d7fd9;
+  }
+}
+
+/* Card hover effects with cyber theme */
+.card {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(24, 160, 251, 0.15);
+  }
+}
+
+/* Sidebar active state enhancement */
+.sidebar .nav-link.active {
+  color: #18A0FB;
+  font-weight: 600;
+}
+
+/* Code block enhancements */
+.highlight {
+  border-left: 3px solid #18A0FB;
+}
+
+/* Tag styling */
+.tag {
+  border-color: #18A0FB;
+  
+  &:hover {
+    background-color: rgba(24, 160, 251, 0.1);
+    border-color: #18A0FB;
+  }
+}
+
+/* Resume page */
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.resume-viewer {
+  width: 100%;
+  min-height: 900px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: var(--radius-lg);
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+}
+
+@media (max-width: 768px) {
+  .resume-viewer {
+    min-height: 600px;
+  }
+}
+
+/* Tagline formatting - align and space pipe-separated roles */
+.site-subtitle {
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: 0.35rem;
+  white-space: normal;
+}
+
+

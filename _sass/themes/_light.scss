@@ -1,0 +1,316 @@
+@mixin styles {
+  /* Framework color - Cybersecurity Theme */
+  --main-bg: #F5F7FA;
+  --mask-bg: #c1c3c5;
+  --main-border-color: #e0e4e8;
+
+  /* Common color */
+  --text-color: #0A1A2F;
+  --text-muted-color: #4a5568;
+  --text-muted-highlight-color: inherit;
+  --heading-color: #0A1A2F;
+  --label-color: #2d3748;
+  --blockquote-border-color: #18A0FB;
+  --blockquote-text-color: #4a5568;
+  --link-color: #18A0FB;
+  --link-underline-color: #cbd5e0;
+  --button-bg: #ffffff;
+  --btn-border-color: #e2e8f0;
+  --btn-backtotop-color: #4a5568;
+  --btn-backtotop-border-color: #f1f5f9;
+  --checkbox-color: #cbd5e0;
+  --checkbox-checked-color: #18A0FB;
+  --img-bg: radial-gradient(circle, rgb(245 247 250) 0%, rgb(226 232 240) 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgb(250 250 250 / 0%) 0%,
+    rgb(24 160 251 / 20%) 50%,
+    rgb(250 250 250 / 0%) 100%
+  );
+
+  /* Sidebar */
+  --site-title-color: #0A1A2F;
+  --site-subtitle-color: #4a5568;
+  --sidebar-bg: #ffffff;
+  --sidebar-border-color: #e2e8f0;
+  --sidebar-muted-color: #4a5568;
+  --sidebar-active-color: #0A1A2F;
+  --sidebar-hover-bg: rgb(24 160 251 / 10%);
+  --sidebar-btn-bg: #F5F7FA;
+  --sidebar-btn-color: #718096;
+  --avatar-border-color: #18A0FB;
+
+  /* Topbar */
+  --topbar-bg: rgb(245 247 250 / 90%);
+  --topbar-text-color: #0A1A2F;
+  --search-border-color: #e2e8f0;
+  --search-icon-color: #a0aec0;
+  --input-focus-border-color: #18A0FB;
+
+  /* Home page */
+  --post-list-text-color: #4a5568;
+  --btn-patinator-text-color: #4a5568;
+  --btn-paginator-hover-color: var(--sidebar-bg);
+
+  /* Posts */
+  --toc-highlight: #18A0FB;
+  --toc-popup-border-color: #e2e8f0;
+  --btn-share-color: #718096;
+  --btn-share-hover-color: #18A0FB;
+  --card-bg: white;
+  --card-hover-bg: #f7fafc;
+  --card-shadow: rgb(10 26 47 / 5%) 0 2px 6px 0,
+    rgb(24 160 251 / 10%) 0 0 0 1px;
+  --footnote-target-bg: rgb(24 160 251 / 15%);
+  --tb-odd-bg: #F5F7FA;
+  --tb-border-color: #e2e8f0;
+  --dash-color: #a0aec0;
+  --kbd-wrap-color: #cbd5e0;
+  --kbd-text-color: var(--text-color);
+  --kbd-bg-color: white;
+  --prompt-text-color: rgb(10 26 47 / 80%);
+  --prompt-tip-bg: rgb(24 160 251 / 15%);
+  --prompt-tip-icon-color: #18A0FB;
+  --prompt-info-bg: rgb(24 160 251 / 15%);
+  --prompt-info-icon-color: #18A0FB;
+  --prompt-warning-bg: rgb(255 243 205);
+  --prompt-warning-icon-color: #f6ad55;
+  --prompt-danger-bg: rgb(248 215 218 / 56%);
+  --prompt-danger-icon-color: #e53e3e;
+
+  /* Tags */
+  --tag-border: #e2e8f0;
+  --tag-shadow: var(--btn-border-color);
+  --tag-hover: rgb(24 160 251 / 10%);
+  --search-tag-bg: #F5F7FA;
+
+  /* Categories */
+  --categories-border: rgb(10 26 47 / 12.5%);
+  --categories-hover-bg: rgb(24 160 251 / 10%);
+  --categories-icon-hover-color: #18A0FB;
+
+  /* Archive */
+  --timeline-color: rgb(10 26 47 / 10%);
+  --timeline-node-bg: #18A0FB;
+  --timeline-year-dot-color: #ffffff;
+
+  /* --- Custom code light mode colors --- */
+  --language-border-color: #e2e8f0;
+  --highlight-bg-color: #F5F7FA;
+  --highlighter-rouge-color: #0A1A2F;
+  --highlight-lineno-color: #a0aec0;
+  --inline-code-bg: rgb(24 160 251 / 10%);
+  --code-color: #0A1A2F;
+  --code-header-text-color: #718096;
+  --code-header-muted-color: #e2e8f0;
+  --code-header-icon-color: #cbd5e0;
+  --clipboard-checked-color: #18A0FB;
+
+  [class^='prompt-'] {
+    --link-underline-color: rgb(226 232 240);
+  }
+
+  .dark {
+    display: none;
+  }
+
+  /* --- Syntax highlight theme - Cybersecurity colors --- */
+
+  .highlight table td {
+    padding: 5px;
+  }
+
+  .highlight table pre {
+    margin: 0;
+  }
+
+  .highlight,
+  .highlight .w {
+    color: #0A1A2F;
+    background-color: #F5F7FA;
+  }
+
+  .highlight .k,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kt,
+  .highlight .kv {
+    color: #e53e3e;
+  }
+
+  .highlight .gr {
+    color: #F5F7FA;
+  }
+
+  .highlight .gd {
+    color: #c53030;
+    background-color: #fed7d7;
+  }
+
+  .highlight .nb {
+    color: #d69e2e;
+  }
+
+  .highlight .nc {
+    color: #d69e2e;
+  }
+
+  .highlight .no {
+    color: #d69e2e;
+  }
+
+  .highlight .nn {
+    color: #d69e2e;
+  }
+
+  .highlight .sr {
+    color: #18A0FB;
+  }
+
+  .highlight .na {
+    color: #18A0FB;
+  }
+
+  .highlight .nt {
+    color: #18A0FB;
+  }
+
+  .highlight .gi {
+    color: #18A0FB;
+    background-color: rgb(24 160 251 / 15%);
+  }
+
+  .highlight .kc {
+    color: #18A0FB;
+  }
+
+  .highlight .l,
+  .highlight .ld,
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .il,
+  .highlight .mo,
+  .highlight .mx {
+    color: #18A0FB;
+  }
+
+  .highlight .sb {
+    color: #18A0FB;
+  }
+
+  .highlight .bp {
+    color: #18A0FB;
+  }
+
+  .highlight .ne {
+    color: #18A0FB;
+  }
+
+  .highlight .nl {
+    color: #18A0FB;
+  }
+
+  .highlight .py {
+    color: #18A0FB;
+  }
+
+  .highlight .nv,
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi,
+  .highlight .vm {
+    color: #18A0FB;
+  }
+
+  .highlight .o,
+  .highlight .ow {
+    color: #18A0FB;
+  }
+
+  .highlight .gh {
+    color: #18A0FB;
+    font-weight: bold;
+  }
+
+  .highlight .gu {
+    color: #18A0FB;
+    font-weight: bold;
+  }
+
+  .highlight .s,
+  .highlight .sa,
+  .highlight .sc,
+  .highlight .dl,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .sx,
+  .highlight .s1,
+  .highlight .ss {
+    color: #0A1A2F;
+  }
+
+  .highlight .nd {
+    color: #805ad5;
+  }
+
+  .highlight .nf,
+  .highlight .fm {
+    color: #805ad5;
+  }
+
+  .highlight .err {
+    color: #F5F7FA;
+    background-color: #e53e3e;
+  }
+
+  .highlight .c,
+  .highlight .ch,
+  .highlight .cd,
+  .highlight .cm,
+  .highlight .cp,
+  .highlight .cpf,
+  .highlight .c1,
+  .highlight .cs {
+    color: #718096;
+  }
+
+  .highlight .gl {
+    color: #718096;
+  }
+
+  .highlight .gt {
+    color: #718096;
+  }
+
+  .highlight .ni {
+    color: #0A1A2F;
+  }
+
+  .highlight .si {
+    color: #0A1A2F;
+  }
+
+  .highlight .ge {
+    color: #0A1A2F;
+    font-style: italic;
+  }
+
+  .highlight .gs {
+    color: #0A1A2F;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+
+

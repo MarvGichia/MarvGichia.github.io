@@ -2,3 +2,24 @@
 layout: home
 # Index page
 ---
+<div class="profile-section mb-5">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-3 text-center mb-4 mb-md-0">
+      <img 
+        src="{{ '/assets/img/ProfilePic.jpg' | relative_url }}" 
+        alt="Marvin Ndungu Gichia" 
+        class="profile-image rounded-circle img-fluid"
+        style="max-width: 200px; width: 100%; height: auto; object-fit: cover; aspect-ratio: 1 / 1;"
+      >
+    </div>
+    <div class="col-12 col-md-9">
+      <h1 class="profile-name mb-2">{{ site.social.name }}</h1>
+      <p class="profile-tagline text-muted mb-3 fs-5">{{ site.tagline }}</p>
+      <p class="profile-bio">
+        Welcome to my cybersecurity journey! I'm passionate about network security, threat analysis, and protecting digital infrastructure. 
+        Here you'll find my projects, insights, and experiences in the ever-evolving world of cybersecurity.
+      </p>
+    </div>
+  </div>
+</div>
+
