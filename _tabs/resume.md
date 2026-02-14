@@ -16,23 +16,22 @@ order: 5
 ### Academic Background
 
 - Undergraduate degree for Bachelor of Science in Computer Science  
-- Relevant Coursework: Operating Systems, Database Systems, Machine Learning, Cloud Computing and Virtualization  
+- Relevant Coursework: Operating Systems, Database Systems, Networking, AI and Machine Learning,Programming Languages  
 
 ### Work / Attachment Experience
 
 - **Internship – Betting Control and Licensing Board (BCLB)**  
   - Network troubleshooting and switch/router configuration assistance.  
-  - Produced technical documentation and escalation notes for the ICT/SOC teams.  
-  - Shadowed server hardening tasks and reviewed common misconfigurations.  
+  - Produced technical assistance and documentation for the ICT team.  
+  - Performed server maintenance with regular checkups. 
   - Delivered day-to-day ICT support: user onboarding, password resets, endpoint checks.  
 
 ### Technical Skills
 
 - Networking (VLANs, switching, routing fundamentals)  
 - Cloud security design and controls  
-- Linux administration (Kali, Ubuntu)  
-- Python scripting & automation pipelines  
-- MySQL / SQLite database development  
+- Linux administration (Kali, Ubuntu)    
+- SQLite database development  
 - Web security fundamentals & secure coding practices  
 - Git & GitHub collaboration workflows  
 - Cisco Packet Tracer, Wireshark, and related analysis tooling  
